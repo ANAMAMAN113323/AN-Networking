@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Services | AN Networking</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f6f9;
+      color: #1f2933;
+      line-height: 1.8;
+    }
+
+    /* HEADER */
+    .top-header {
+      background: #0b1d39;
+      color: #fff;
+      padding: 22px 90px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #00c2ff;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 28px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #00c2ff;
+    }
+
+    /* HERO */
+    .page-hero {
+      background: linear-gradient(
+        rgba(11,29,57,0.8),
+        rgba(11,29,57,0.8)
+      ),
+      url("https://images.unsplash.com/photo-1529070538774-1843cb3265df");
+      background-size: cover;
+      background-position: center;
+      padding: 110px 90px;
+      color: #fff;
+    }
+
+    .page-hero h1 {
+      font-size: 44px;
+      margin-bottom: 18px;
+    }
+
+    .page-hero p {
+      font-size: 19px;
+      max-width: 820px;
+      opacity: 0.95;
+    }
+
+    /* SECTION */
+    .services {
+      padding: 90px;
+      background: #ffffff;
+    }
+
+    .service-box {
+      display: flex;
+      gap: 45px;
+      margin-bottom: 90px;
+      align-items: center;
+    }
+
+    .service-box img {
+      width: 45%;
+      border-radius: 16px;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.18);
+    }
+
+    .service-content {
+      width: 55%;
+    }
+
+    .service-content h2 {
+      font-size: 30px;
+      color: #0b1d39;
+      margin-bottom: 18px;
+    }
+
+    .service-content p {
+      font-size: 16.5px;
+      color: #374151;
+      margin-bottom: 14px;
+    }
+
+    .service-content ul {
+      padding-left: 18px;
+      color: #374151;
+    }
+
+    .service-content ul li {
+      margin-bottom: 8px;
+    }
+
+    .reverse {
+      flex-direction: row-reverse;
+    }
+
+    /* CATEGORY GRID */
+    .categories {
+      background: #f4f6f9;
+      padding: 90px;
+    }
+
+    .categories h2 {
+      text-align: center;
+      font-size: 34px;
+      color: #0b1d39;
+      margin-bottom: 50px;
+    }
+
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .cat-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+    }
+
+    .cat-box h3 {
+      color: #0072ff;
+      margin-bottom: 10px;
+    }
+
+    .cat-box p {
+      font-size: 15px;
+      color: #374151;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #0b1d39;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 28px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="top-header">
+  <div class="logo">AN Networking</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <h1>Enterprise-Level Google My Business Solutions</h1>
+  <p>
+    We provide scalable, category-flexible and country-independent
+    Google My Business and digital infrastructure services
+    for agencies, resellers, and direct business owners.
+  </p>
+</section>
+
+<section class="services">
+
+  <div class="service-box">
+    <img src="https://images.unsplash.com/photo-1530521954074-e64f6810b32d">
+    <div class="service-content">
+      <h2>Google My Business Setup & Optimization</h2>
+      <p>
+        We design fully compliant Google My Business profiles
+        aligned with Google’s verification and ranking systems.
+      </p>
+      <ul>
+        <li>Accurate NAP & business structure</li>
+        <li>High-risk & competitive category handling</li>
+        <li>Long-term listing stability</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="service-box reverse">
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+    <div class="service-content">
+      <h2>GMB Verification & Trust Signals</h2>
+      <p>
+        Our systems support all major verification methods
+        used by Google worldwide.
+      </p>
+      <ul>
+        <li>Postcard, phone & email verification</li>
+        <li>Video verification preparation</li>
+        <li>Trust-building digital assets</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="service-box">
+    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786">
+    <div class="service-content">
+      <h2>Multi-Location & International GMB</h2>
+      <p>
+        We manage businesses operating in multiple cities
+        or countries with structured digital architecture.
+      </p>
+      <ul>
+        <li>Country-specific compliance</li>
+        <li>Multiple listings management</li>
+        <li>Agency & reseller support</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+<section class="categories">
+  <h2>Supported Business Categories</h2>
+
+  <div class="cat-grid">
+    <div class="cat-box">
+      <h3>Airline & Aviation Services</h3>
+      <p>Airport-based and aviation-related businesses with strict verification needs.</p>
+    </div>
+
+    <div class="cat-box">
+      <h3>Dumpster Rental</h3>
+      <p>Service-area businesses with address masking & compliance handling.</p>
+    </div>
+
+    <div class="cat-box">
+      <h3>Chimney & Home Services</h3>
+      <p>High-competition local service categories with advanced optimization.</p>
+    </div>
+
+    <div class="cat-box">
+      <h3>Professional Services</h3>
+      <p>Consultants, agencies, and digital service providers worldwide.</p>
+    </div>
+
+    <div class="cat-box">
+      <h3>Multi-Category Businesses</h3>
+      <p>Businesses operating across several Google-allowed categories.</p>
+    </div>
+
+    <div class="cat-box">
+      <h3>International Brands</h3>
+      <p>Brands expanding into new countries and regions.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 AN Networking — Professional Google Business Infrastructure
+</footer>
+
+</body>
+</html>
