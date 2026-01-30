@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AN Networking | Digital Business Solutions</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Inter',sans-serif;
+  background:#f8fafc;
+  color:#1f2937;
+}
+
+/* ===== HEADER ===== */
+header{
+  position:relative;
+  background:
+    linear-gradient(rgba(11,44,74,0.85),rgba(11,44,74,0.85)),
+    url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
+  background-size:cover;
+  background-position:center;
+}
+.nav{
+  max-width:1200px;
+  margin:auto;
+  padding:28px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.brand{
+  font-size:34px;
+  font-weight:700;
+  letter-spacing:1px;
+}
+.brand-main{color:#38bdf8}
+.brand-sub{color:#ffffff;margin-left:6px}
+
+.nav-buttons{
+  display:flex;
+  gap:14px;
+}
+.nav-btn{
+  padding:10px 22px;
+  border-radius:30px;
+  background:rgba(255,255,255,0.15);
+  color:#ffffff;
+  text-decoration:none;
+  font-size:15px;
+}
+.nav-btn:hover{
+  background:#38bdf8;
+  color:#0b2c4a;
+}
+
+/* ===== HERO ===== */
+.hero{
+  max-width:1200px;
+  margin:auto;
+  padding:90px 20px 110px;
+  display:grid;
+  grid-template-columns:1.2fr 1fr;
+  gap:50px;
+  color:#ffffff;
+}
+.hero h1{
+  font-size:42px;
+  line-height:1.2;
+  margin-bottom:20px;
+}
+.hero p{
+  font-size:18px;
+  line-height:1.7;
+  opacity:0.95;
+}
+.hero-box{
+  background:rgba(255,255,255,0.95);
+  color:#1f2937;
+  padding:35px;
+}
+.hero-box h4{
+  margin-top:0;
+  font-size:20px;
+}
+.hero-box p{
+  font-size:15px;
+  line-height:1.6;
+}
+
+/* ===== SECTION ===== */
+.section{
+  padding:80px 20px;
+}
+.section-inner{
+  max-width:1200px;
+  margin:auto;
+}
+.section h2{
+  font-size:32px;
+  margin-bottom:15px;
+}
+.section p{
+  font-size:16px;
+  line-height:1.8;
+  max-width:850px;
+  color:#374151;
+}
+
+/* ===== IMAGE CARDS (SMALL) ===== */
+.card-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+  margin-top:45px;
+}
+.card{
+  background:#ffffff;
+  border:1px solid #e5e7eb;
+}
+.card img{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+}
+.card div{
+  padding:18px;
+}
+.card h4{
+  margin:0 0 8px;
+  font-size:17px;
+}
+.card p{
+  font-size:14px;
+  line-height:1.6;
+  color:#4b5563;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  background:#0b2c4a;
+  color:#e5e7eb;
+  padding:45px 20px;
+}
+.footer-inner{
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:40px;
+}
+footer h4{margin-top:0}
+footer a{
+  color:#e5e7eb;
+  text-decoration:none;
+  display:block;
+  margin:6px 0;
+  font-size:14px;
+}
+.copy{
+  text-align:center;
+  margin-top:30px;
+  font-size:13px;
+  opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">
+      <span class="brand-main">AN</span>
+      <span class="brand-sub">Networking</span>
+    </div>
+    <div class="nav-buttons">
+      <a href="index.html" class="nav-btn">Home</a>
+      <a href="about.html" class="nav-btn">About</a>
+      <a href="contact.html" class="nav-btn">Contact</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div>
+      <h1>Professional Digital Presence & Google Business Solutions</h1>
+      <p>
+        AN Networking helps businesses build trusted online presence through
+        Google-compliant structures, verification-ready systems, and
+        professional digital support.
+      </p>
+    </div>
+
+    <div class="hero-box">
+      <h4>Why AN Networking?</h4>
+      <p>✔ Structured & professional website design</p>
+      <p>✔ Google My Business readiness</p>
+      <p>✔ Multi-category business handling</p>
+      <p>✔ Long-term scalable solutions</p>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="section-inner">
+    <h2>What We Do</h2>
+    <p>
+      Our services are designed to support businesses across different industries
+      with a focus on trust, clarity, and Google verification standards.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786">
+        <div>
+          <h4>Business Consultation</h4>
+          <p>Understanding business needs and digital structure planning.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c">
+        <div>
+          <h4>Team Support</h4>
+          <p>Professional assistance for verification and listing processes.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984">
+        <div>
+          <h4>Category Planning</h4>
+          <p>Multi-industry and service category support systems.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+        <div>
+          <h4>Digital Infrastructure</h4>
+          <p>Web presence built for trust and long-term stability.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+        <div>
+          <h4>Global Reach</h4>
+          <p>Solutions designed for international business operations.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h4>AN Networking</h4>
+      <p>Professional Digital & Google Business Solutions.</p>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:info@example.com">info@example.com</a>
+    </div>
+  </div>
+  <div class="copy">© 2026 AN Networking. All rights reserved.</div>
+</footer>
+
+</body>
+</html>

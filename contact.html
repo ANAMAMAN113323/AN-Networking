@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Us | AN Networking</title>
+
+<style>
+/* ===== RESET ===== */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.top-bar{
+  background:#0b2a4a;
+  padding:16px 60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  font-size:26px;
+  font-weight:bold;
+  color:#2dd4ff;
+}
+
+nav a{
+  color:#ffffff;
+  text-decoration:none;
+  margin-left:22px;
+  padding:8px 16px;
+  border-radius:20px;
+  transition:0.3s;
+}
+
+nav a:hover{
+  background:#2dd4ff;
+  color:#0b2a4a;
+}
+
+/* ===== HERO HEADER WITH IMAGE EFFECT ===== */
+.hero-header{
+  height:360px;
+  background-image:
+    linear-gradient(rgba(5,30,60,0.9), rgba(5,30,60,0.9)),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  padding-left:70px;
+  color:white;
+}
+
+.hero-content{
+  max-width:650px;
+}
+
+.hero-content h1{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.hero-content p{
+  font-size:17px;
+  line-height:1.6;
+  color:#dbe9ff;
+}
+
+/* ===== PAGE CONTENT ===== */
+.page-section{
+  padding:80px;
+  background:#f6f9fc;
+}
+
+.page-section h2{
+  font-size:30px;
+  color:#0b2a4a;
+  margin-bottom:20px;
+}
+
+.page-section p{
+  font-size:16px;
+  color:#333;
+  line-height:1.7;
+  margin-bottom:18px;
+}
+
+/* ===== CONTACT GRID ===== */
+.contact-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:50px;
+  margin-top:50px;
+}
+
+/* ===== INFO PANEL ===== */
+.contact-info{
+  background:white;
+  padding:40px;
+  border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.contact-info h3{
+  color:#0b2a4a;
+  margin-bottom:15px;
+}
+
+.contact-info p{
+  font-size:15px;
+  color:#444;
+  line-height:1.6;
+  margin-bottom:14px;
+}
+
+/* ===== CONTACT FORM ===== */
+.contact-form{
+  background:white;
+  padding:40px;
+  border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.contact-form h3{
+  color:#0b2a4a;
+  margin-bottom:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:14px;
+  margin-bottom:18px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:15px;
+}
+
+.contact-form textarea{
+  height:120px;
+  resize:none;
+}
+
+.contact-form button{
+  background:#0b2a4a;
+  color:white;
+  border:none;
+  padding:14px 30px;
+  border-radius:25px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.contact-form button:hover{
+  background:#2dd4ff;
+  color:#0b2a4a;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="top-bar">
+  <div class="logo">AN Networking</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="verification.html">Verification</a>
+  </nav>
+</header>
+
+<!-- ===== HERO HEADER ===== -->
+<section class="hero-header">
+  <div class="hero-content">
+    <h1>Contact AN Networking</h1>
+    <p>
+      Let’s discuss verification-ready digital solutions for your business.
+      We work globally across multiple service categories.
+    </p>
+  </div>
+</section>
+
+<!-- ===== CONTENT ===== -->
+<section class="page-section">
+  <h2>Get in Touch</h2>
+  <p>
+    Whether you need Google My Business verification support, category-specific
+    consultation or scalable digital infrastructure, our team is ready to assist.
+  </p>
+
+  <div class="contact-grid">
+
+    <!-- INFO -->
+    <div class="contact-info">
+      <h3>Business Communication</h3>
+      <p>
+        AN Networking provides structured support for businesses operating in
+        competitive service categories across multiple countries.
+      </p>
+
+      <p>
+        We focus on compliance, verification readiness and long-term stability
+        rather than short-term solutions.
+      </p>
+
+      <p>
+        📧 Email: anamkhan113323@gmail.com  
+        <br><br>
+        🌍 Global Service Coverage  
+        <br><br>
+        🕒 Response Time: 24–48 Hours
+      </p>
+    </div>
+
+    <!-- FORM -->
+    <div class="contact-form">
+      <h3>Send a Message</h3>
+
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Describe your business & requirements"></textarea>
+        <button type="submit">Submit Request</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>

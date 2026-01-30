@@ -1,0 +1,47 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 8px;
+  padding: 14px 34px;
+  min-width: 200px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* WhatsApp */
+.whatsapp {
+  background: linear-gradient(135deg, #25d366, #1ebe57);
+}
+
+.whatsapp:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(37, 211, 102, 0.4);
+}
+
+/* Call */
+.call {
+  background: linear-gradient(135deg, #007bff, #0056d2);
+}
+
+.call:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0, 123, 255, 0.4);
+}
+
+/* Email */
+.email {
+  background: linear-gradient(135deg, #ff7043, #ff5722);
+}
+
+.email:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(255, 87, 34, 0.4);
+}
